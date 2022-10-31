@@ -138,13 +138,13 @@ def encryptByPlayfairCipher(Matrix, plainList):
     return CipherText
 
 
-text_Plain = 'instruments'
+text_Plain = 'Pratham'
 text_Plain = removeSpaces(toLowerCase(text_Plain))
 PlainTextList = Diagraph(FillerLetter(text_Plain))
 if len(PlainTextList[-1]) != 2:
     PlainTextList[-1] = PlainTextList[-1] + 'z'
 
-key = "Monarchy"
+key = "Prathamesh"
 print("Key text:", key)
 key = toLowerCase(key)
 Matrix = generateKeyTable(key, list1)
